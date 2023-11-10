@@ -7,7 +7,7 @@
 
 # testing
 /coverage
-
+.env
 # next.js
 /.next/
 /out/
@@ -25,10 +25,11 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
-.env.local
+.env
 .env.development.local
 .env.test.local
 .env.production.local
 
 # vercel
 .vercel
+src/services/firebaseConnection.ts

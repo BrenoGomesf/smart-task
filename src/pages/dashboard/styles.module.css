@@ -1,0 +1,132 @@
+
+.container{
+    width: 100%;
+}
+.content{
+    background-color: #0f0f0f;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentForm{
+    max-width: 1024px;
+    width: 100%;
+    padding: 0 18px;
+    padding-bottom: 28px;
+    margin-top: 58px;
+}
+.title{
+   color: #fff;
+   margin-bottom: 8px; 
+}
+.checkboxArea label{
+    margin-left: 8px;
+    color: #fff;
+}
+.checkboxArea{
+    margin: 14px 0;
+}
+.checkbox{
+    width: 18px;
+    height: 18px;
+}
+.button{
+    width: 100%;
+    border:0;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #3183ff;
+    padding: 12px 0;
+    font-size: 18px;
+}
+.taskContainer {
+    margin: 34px auto 0 auto;
+    padding: 0 18px;
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+}
+.taskContainer a {
+    text-decoration: none;
+    color: #0f0f0f;
+}
+
+.taskContainer{
+    text-align: center;
+    font-size: 32px ;
+    margin-bottom: 14px  ;
+}
+
+.task {
+    margin-bottom: 14px;
+    line-height: 150%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1.5px solid #909090;
+    border-radius: 4px;
+    padding: 4px;
+}
+.tagContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4px;
+}
+.tagContainer label{
+   width: 50% !important;
+   height: 50px !important;
+}
+
+
+.taskContainer a{
+    text-decoration: none;
+    color: #0f0f0f;
+}
+.taskContainer h1{
+    text-align: center;
+    font-size: 2pzx;
+    margin-bottom: 14px;
+}
+.tag{
+    background: #3183ff ;
+    padding: 1px 4px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 10px;
+}
+
+
+.label{
+    flex-direction: column-reverse !important;
+    justify-content: center !important;
+}
+.sharedButton{
+    background: transparent;
+    border:0;
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+.taskContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 4px !important;
+}
+.taskContent p {
+    white-space: pre-wrap;
+    font-size: 15px;
+}
+.transhButton{
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    margin: 0 8px;
+}
+.p{
+    font-size: 15px;
+}
